@@ -2354,7 +2354,7 @@ const ImWchar* GetGlyphRangesJapanese()
         0xFA59, 0xFA5C, // 繁署者臭
         0xFA5F, 0xFA5F, // 著
         0xFA61, 0xFA65, // 視謁謹賓贈
-        0xFA67, 0xFA68, // 逸難
+        0xFA67, 0xFA69, // 逸難響
 
         0
     };

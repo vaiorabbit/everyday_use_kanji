@@ -40,7 +40,7 @@ if __FILE__ == $0
   renderer = ERB.new(erb_template)
 
   # Convert list of kanjis into the array of codepoint pair
-  characters = IO.read(list_filename).chop.chars
+  characters = IO.read(list_filename).chars
   codepoint_pairs = calculate_codepoint_pairs(characters, optimize)
 
   # Build the actual string of accumulative offsets used in the C++ implementation code

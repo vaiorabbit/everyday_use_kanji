@@ -27,7 +27,7 @@ if __FILE__ == $0
   renderer = ERB.new(erb_template)
 
   # Convert list of kanjis into the array of accumulative offsets
-  characters = IO.read(list_filename).chop.chars
+  characters = IO.read(list_filename).chars
   accumulative_offsets_array = calculate_accumulative_offsets(characters, base_codepoint)
 
   # Build the actual string of accumulative offsets used in the C++ implementation code
