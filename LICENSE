@@ -1,6 +1,18 @@
-"独立行政法人 情報処理推進機構 (Information-technology Promotion Agency, Japan)"
+The kanji character information used in this project (mj_source.json) is obtained from
+the database of 独立行政法人情報処理推進機構 (Information-technology Promotion Agency, Japan).
 
-Creative Commons Attribution-ShareAlike 2.1 Japan (CC BY-SA 2.1 JP)
+*   Information-technology Promotion Agency, Japan（IPA）
+    *   https://www.ipa.go.jp
+*   MJ文字情報API (Character Information API)
+    *   https://mojikiban.ipa.go.jp/mji/
 
-*   https://creativecommons.org/licenses/by-sa/2.1/jp/legalcode
+The derivatives of the kanji character information above are created by vaiorabbit
+
+*   https://github.com/vaiorabbit
+*   https://twitter.com/vaiorabbit
+
+All the contents in this repository are freely available under the terms of
+the Creative Commons Attribution-ShareAlike 2.1 Japan (CC BY-SA 2.1 JP).
+
 *   https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en
+*   https://creativecommons.org/licenses/by-sa/2.1/jp/legalcode
