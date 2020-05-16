@@ -2,13 +2,13 @@ const ImWchar*  ImFontAtlas::GetGlyphRangesJapanese()
 {
     // 2999 ideograms code points for Japanese
     // - 2136 Joyo (meaning "regular-use") Kanji codepoints sourced from:
-    //   - https://en.wikipedia.org/wiki/List_of_j%C5%8Dy%C5%8D_kanji
-    //   - https://ja.wikipedia.org/wiki/%E5%B8%B8%E7%94%A8%E6%BC%A2%E5%AD%97%E4%B8%80%E8%A6%A7
     //   - https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kakuki/14/tosin02/index.html
+    //   - https://en.wikipedia.org/wiki/List_of_j%C5%8Dy%C5%8D_kanji
     // - 863 Jinmeiyo (meaning "for personal name") Kanji codepoints sourced from:
-    //   - https://en.wikipedia.org/wiki/Jinmeiy%C5%8D_kanji
-    //   - https://ja.wikipedia.org/wiki/%E4%BA%BA%E5%90%8D%E7%94%A8%E6%BC%A2%E5%AD%97%E4%B8%80%E8%A6%A7
     //   - http://www.moj.go.jp/MINJI/minji86.html
+    //   - https://en.wikipedia.org/wiki/Jinmeiy%C5%8D_kanji
+	// - Sourced from the database of Information-technology Promotion Agency, Japan
+	//   - https://mojikiban.ipa.go.jp/mji/
     // You can use ImFontGlyphRangesBuilder to create your own ranges derived from this, by merging existing ranges or adding new characters.
     // (Stored as accumulative offsets from the initial unicode codepoint 0x4E00. This encoding is designed to helps us compact the source code size.)
     static const short accumulative_offsets_from_0x4E00[] =
