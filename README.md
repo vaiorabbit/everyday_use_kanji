@@ -1,4 +1,14 @@
-# Contents #
+# Everyday use kanji #
+
+*   Created : 2020-05-16
+*   Last modified : 2020-05-16
+
+## Features ##
+
+*   Provides lists of everyday use kanji characters
+*   Sourced from the database of Information-technology Promotion Agency Japan (A relatied organization of Japanese Ministry of Economy, Trade and Industry)
+
+## Contents ##
 
 *   regular_use.csv and regular_use_force_2byte.csv
     *   2136 kanjis for everyday use, announced officially by the Japanese Ministry of Education in 2010 ( 文化庁：常用漢字表 https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kakuki/14/tosin02/index.html )
@@ -11,7 +21,7 @@
 *   scripts/*.rb, imgui/*.rb
     *   Ruby scripts used to obtain data and generate derivatives
 
-# Sources #
+## Sources ##
 
 This project uses the dataset provided by Information-technology Promotion Agency (IPA) Japan.
 
@@ -24,9 +34,9 @@ This project uses the dataset provided by Information-technology Promotion Agenc
 
 [NOTE] The acronym "MJ" stands for "Moji-Joho (文字情報)", meaning "character infromation".
 
-# Notes #
+## Notes ##
 
-## 2136, 𠮟 or 叱 (in regular_use.csv) ##
+### 2136, 𠮟 or 叱 (in regular_use.csv) ###
 
 The only difference between 'regular_use.csv' and 'regular_use_force_2byte.csv' is the character in the last line.
 
