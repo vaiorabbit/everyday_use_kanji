@@ -4,11 +4,18 @@
     *   2136 kanjis for everyday use, announced officially by the Japanese Ministry of Education in 2010 ( 文化庁：常用漢字表 https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kakuki/14/tosin02/index.html )
 *   personal_name.csv
     *   Additional 863 kanjis for personal name, announced officially by the Japanese Ministry of Justice ( 法務省：子の名に使える漢字 http://www.moj.go.jp/MINJI/minji86.html )
+*   mj_source.json
+    *   Source of these CSV files. Directly obtained from the IPA database API (see below for details)
+*   imgui/GetGlyphRangesJapanese.cpp, imgui/GetGlyphRangesJapanese_standalone.cpp
+    *   Alternative implementation of ImGui::GetGlyphRangesJapanese() that can handle 2999 kanjis correctly
+*   scripts/*.rb, imgui/*.rb
+    *   Ruby scripts used to obtain data and generate derivatives
 
 # Sources #
 
 This project uses the dataset provided by Information-technology Promotion Agency (IPA) Japan.
-See 'LICENSE' for the terms of use.
+
+**See 'LICENSE' for the terms of use.**
 
 *   MJ文字情報API
     *   https://mojikiban.ipa.go.jp/mji/

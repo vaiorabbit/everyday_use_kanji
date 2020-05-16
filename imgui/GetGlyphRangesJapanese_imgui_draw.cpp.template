@@ -1,0 +1,32 @@
+const ImWchar*  ImFontAtlas::GetGlyphRangesJapanese()
+{
+    // 2999 ideograms code points for Japanese
+    // - 2136 Joyo (meaning "regular-use") Kanji codepoints sourced from:
+    //   - https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kakuki/14/tosin02/index.html
+    //   - https://en.wikipedia.org/wiki/List_of_j%C5%8Dy%C5%8D_kanji
+    // - 863 Jinmeiyo (meaning "for personal name") Kanji codepoints sourced from:
+    //   - http://www.moj.go.jp/MINJI/minji86.html
+    //   - https://en.wikipedia.org/wiki/Jinmeiy%C5%8D_kanji
+	// - Sourced from the database of Information-technology Promotion Agency, Japan
+	//   - https://mojikiban.ipa.go.jp/mji/
+    // You can use ImFontGlyphRangesBuilder to create your own ranges derived from this, by merging existing ranges or adding new characters.
+    // (Stored as accumulative offsets from the initial unicode codepoint 0x4E00. This encoding is designed to helps us compact the source code size.)
+    static const short accumulative_offsets_from_0x<%= base_offset_code %>[] =
+    {
+<%= accumulative_offsets_code %>
+    };
+    static ImWchar base_ranges[] = // not zero-terminated
+    {
+        0x0020, 0x00FF, // Basic Latin + Latin Supplement
+        0x3000, 0x30FF, // CJK Symbols and Punctuations, Hiragana, Katakana
+        0x31F0, 0x31FF, // Katakana Phonetic Extensions
+        0xFF00, 0xFFEF  // Half-width characters
+    };
+    static ImWchar full_ranges[IM_ARRAYSIZE(base_ranges) + IM_ARRAYSIZE(accumulative_offsets_from_0x<%= base_offset_code %>)*2 + 1] = { 0 };
+    if (!full_ranges[0])
+    {
+        memcpy(full_ranges, base_ranges, sizeof(base_ranges));
+        UnpackAccumulativeOffsetsIntoRanges(0x4E00, accumulative_offsets_from_0x<%= base_offset_code %>, IM_ARRAYSIZE(accumulative_offsets_from_0x<%= base_offset_code %>), full_ranges + IM_ARRAYSIZE(base_ranges));
+    }
+    return &full_ranges[0];
+}
