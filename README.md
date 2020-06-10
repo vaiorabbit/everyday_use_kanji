@@ -49,8 +49,8 @@ The only difference between 'regular_use.csv' and 'regular_use_force_2byte.csv' 
         2136,叱
 
 *   「𠮟 (codepoint 134047, #o405637, #x20b9f)」:
-   *   was added as the regular-use kanjis in 2010.
-   *   is the only regular use kanji that *exceeds 2 bytes*.
+    *   was added as the regular-use kanjis in 2010.
+    *   is the only regular use kanji that *exceeds 2 bytes*.
 *   「叱 (codepoint 21489, #o51761, #x53f1)」:
     *   is the traditional form of 「𠮟」.
     *   have been used before the modern form 「𠮟」 was added, and can be represented in 2 bytes.
@@ -105,8 +105,8 @@ CSVファイル 'regular_use.csv' と 'regular_use_force_2byte.csv' の差は最
         2136,叱
 
 *   「𠮟 (codepoint 134047, #o405637, #x20b9f)」:
-   *   2010年に常用漢字に追加
-   *   現時点の常用漢字で表現に2バイトを*越える*領域が必要になる唯一の文字
+    *   2010年に常用漢字に追加
+    *   現時点の常用漢字で表現に2バイトを*越える*領域が必要になる唯一の文字
 *   「叱 (codepoint 21489, #o51761, #x53f1)」:
     *   「𠮟」の旧字体
     *   「𠮟」の追加前に使わてきたもので2バイトでの表現可能
