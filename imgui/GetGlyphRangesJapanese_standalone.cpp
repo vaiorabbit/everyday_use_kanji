@@ -31,7 +31,6 @@ const ImWchar* GetGlyphRangesJapanese()
         //   - http://www.moj.go.jp/MINJI/minji86.html
         //   - https://en.wikipedia.org/wiki/Jinmeiy%C5%8D_kanji
         // You can use ImFontGlyphRangesBuilder to create your own ranges derived from this, by merging existing ranges or adding new characters.
-        // (Stored as accumulative offsets from the initial unicode codepoint 0x4E00. This encoding is designed to helps us compact the source code size.)
         0x4E00, 0x4E01, // 一丁
         0x4E03, 0x4E03, // 七
         0x4E07, 0x4E0B, // 万丈三上下
