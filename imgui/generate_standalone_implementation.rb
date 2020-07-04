@@ -1,4 +1,4 @@
-# Usage: > ruby generate_standalone_implementation.rb ../regular_use_force_2byte+personal_name.txt -opt > GetGlyphRangesJapanese_standalone.cpp
+# Usage: > ruby generate_standalone_implementation.rb ../regular_use_force_2byte_codepoint+personal_name_utf8.txt -opt > GetGlyphRangesJapanese_standalone.cpp
 require 'erb'
 require "stringio"
 
@@ -29,7 +29,7 @@ end
 
 if __FILE__ == $0
   # Analyze command line arguments
-  list_filename = ARGV[0] # e.g.) regular_use_force_2byte+personal_names.txt
+  list_filename = ARGV[0] # e.g.) regular_use_force_2byte_codepoint+personal_names_utf8.txt
   return if ARGV[0] == nil
   optimize = ARGV[1] == '-opt' ? true : false
 

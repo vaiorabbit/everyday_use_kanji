@@ -1,4 +1,4 @@
-# Usage: > ruby generate_imgui_draw_implementation.rb ../regular_use_force_2byte+personal_name.txt > GetGlyphRangesJapanese.cpp
+# Usage: > ruby generate_imgui_draw_implementation.rb ../regular_use_force_2byte_codepoint+personal_name_utf8.txt > GetGlyphRangesJapanese.cpp
 require 'erb'
 require "stringio"
 

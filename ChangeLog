@@ -1,3 +1,7 @@
+2020-07-04  vaiorabbit  <http://twitter.com/vaiorabbit>
+
+	* Changed file names / Changed descriptions in README
+
 2020-06-22  vaiorabbit  <http://twitter.com/vaiorabbit>
 
 	* imgui/GetGlyphRangesJapanese_standalone.cpp.template: Removed wrong comment

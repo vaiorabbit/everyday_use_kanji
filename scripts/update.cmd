@@ -1,4 +1,5 @@
-#!/bin/sh
+@echo off
+setlocal enabledelayedexpansion
 
 ruby get_mj_source.rb
 ruby generate_csv.rb
