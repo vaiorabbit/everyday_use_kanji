@@ -1,7 +1,7 @@
 # Everyday use kanji #
 
 *   Created : 2020-05-16
-*   Last modified : 2020-07-04
+*   Last modified : 2020-11-21
 
 ## Features ##
 
@@ -32,7 +32,7 @@ This project uses the dataset provided by Information-technology Promotion Agenc
 *   MJ文字情報一覧表
     *   https://mojikiban.ipa.go.jp/1311.html
 
-[NOTE] The acronym "MJ" stands for "Moji-Joho (文字情報)", meaning "character infromation".
+[NOTE] The acronym "MJ" stands for "Moji-Joho (文字情報)", meaning "character information".
 
 ## Notes ##
 
