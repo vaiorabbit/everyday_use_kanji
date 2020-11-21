@@ -1,6 +1,7 @@
 2020-11-21  vaiorabbit  <http://twitter.com/vaiorabbit>
 
-	* Fixed typo
+	* Updated accumulative_offsets_from_0x4E00 table generation code according to https://github.com/ocornut/imgui/issues/1859#issuecomment-395023812
+	* Fixed typo in README.md
 
 2020-07-04  vaiorabbit  <http://twitter.com/vaiorabbit>
 

@@ -20,6 +20,7 @@
     *   Alternative implementation of ImGui::GetGlyphRangesJapanese() ( https://github.com/ocornut/imgui ) that can handle 2999 kanjis correctly
 *   scripts/*.rb, imgui/*.rb
     *   Ruby scripts used to obtain data and generate derivatives
+    *   Run update.cmd (Windows) / update.sh (macOS) to regenerate codes
 
 ## Sources ##
 
