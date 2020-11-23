@@ -1,18 +1,22 @@
 const ImWchar*  ImFontAtlas::GetGlyphRangesJapanese()
 {
     // 2999 ideograms code points for Japanese
-    // - 2136 Joyo (meaning "regular-use") Kanji codepoints
-    // - 863 Jinmeiyo (meaning "for personal name") Kanji codepoints
-    // - Sourced from the database of Information-technology Promotion Agency, Japan
+    // - 2136 Joyo (meaning "for regular use" or "for common use") Kanji code points
+    // - 863 Jinmeiyo (meaning "for personal name") Kanji code points
+    // - Sourced from the character information database of the Information-technology Promotion Agency, Japan
     //   - https://mojikiban.ipa.go.jp/mji/
     //   - Available under the terms of the Creative Commons Attribution-ShareAlike 2.1 Japan (CC BY-SA 2.1 JP).
     //     - https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en
     //     - https://creativecommons.org/licenses/by-sa/2.1/jp/legalcode
+    //   - You can generate this code by the script at:
+    //     - https://github.com/vaiorabbit/everyday_use_kanji
     // - References:
-    //   - https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kakuki/14/tosin02/index.html
-    //   - https://en.wikipedia.org/wiki/List_of_j%C5%8Dy%C5%8D_kanji
-    //   - http://www.moj.go.jp/MINJI/minji86.html
-    //   - https://en.wikipedia.org/wiki/Jinmeiy%C5%8D_kanji
+    //   - List of Joyo Kanji
+    //     - (Official list by the Agency for Cultural Affairs) https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kakuki/14/tosin02/index.html
+    //     - (Wikipedia) https://en.wikipedia.org/wiki/List_of_j%C5%8Dy%C5%8D_kanji
+    //   - List of Jinmeiyo Kanji
+    //     - (Official list by the Ministry of Justice) http://www.moj.go.jp/MINJI/minji86.html
+    //     - (Wikipedia) https://en.wikipedia.org/wiki/Jinmeiy%C5%8D_kanji
     // You can use ImFontGlyphRangesBuilder to create your own ranges derived from this, by merging existing ranges or adding new characters.
     // (Stored as accumulative offsets from the initial unicode codepoint 0x4E00. This encoding is designed to helps us compact the source code size.)
     static const short accumulative_offsets_from_0x4E00[] =

@@ -1,3 +1,7 @@
+2020-11-23  vaiorabbit  <http://twitter.com/vaiorabbit>
+
+	* Updated comments
+
 2020-11-21  vaiorabbit  <http://twitter.com/vaiorabbit>
 
 	* Updated accumulative_offsets_from_0x4E00 table generation code according to https://github.com/ocornut/imgui/issues/1859#issuecomment-395023812
