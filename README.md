@@ -1,7 +1,7 @@
 # Everyday use kanji #
 
 *   Created : 2020-05-16
-*   Last modified : 2020-11-23
+*   Last modified : 2020-11-28
 
 ## Features ##
 
@@ -54,7 +54,7 @@ The only difference between 'regular_use_utf8.csv' and 'regular_use_force_2byte_
     *   is the only regular use kanji that its codepoint *exceeds 2 bytes*.
 *   叱 (codepoint 0x53f1(==21489), encoded as E5 8F B1 in UTF-8):
     *   is the traditional form of 「𠮟」.
-    *   have been used before the modern form 「𠮟」 was added, and can be represented its codepoint in 2 bytes.
+    *   has been used before the modern form 「𠮟」 was added, and can be represented its codepoint in 2 bytes.
 
 'regular_use_force_2byte_codepoint_utf8.csv' may be useful for environments that maintain codepoints with 2-byte storage (e.g. ImGui compiled with 'sizeof(ImWchar) == 2').
 
