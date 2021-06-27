@@ -1,7 +1,7 @@
 # Everyday use kanji #
 
 *   Created : 2020-05-16
-*   Last modified : 2020-11-28
+*   Last modified : 2021-06-27
 
 ## Features ##
 

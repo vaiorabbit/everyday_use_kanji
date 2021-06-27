@@ -17,6 +17,7 @@ const ImWchar* GetGlyphRangesJapanese()
         0x3000, 0x30FF, // CJK Symbols and Punctuations, Hiragana, Katakana
         0x31F0, 0x31FF, // Katakana Phonetic Extensions
         0xFF00, 0xFFEF, // Half-width characters
+        0xFFFD, 0xFFFD, // Invalid
         // 2999 ideograms code points for Japanese
         // - 2136 Joyo (meaning "for regular use" or "for common use") Kanji code points
         // - 863 Jinmeiyo (meaning "for personal name") Kanji code points
@@ -34,6 +35,7 @@ const ImWchar* GetGlyphRangesJapanese()
         //   - List of Jinmeiyo Kanji
         //     - (Official list by the Ministry of Justice) http://www.moj.go.jp/MINJI/minji86.html
         //     - (Wikipedia) https://en.wikipedia.org/wiki/Jinmeiy%C5%8D_kanji
+        // - Missing 1 Joyo Kanji: U+20B9F (Kun'yomi: Shikaru, On'yomi: Shitsu,shichi), see https://github.com/ocornut/imgui/pull/3627 for details.
         // You can use ImFontGlyphRangesBuilder to create your own ranges derived from this, by merging existing ranges or adding new characters.
         // (Stored as accumulative offsets from the initial unicode codepoint 0x4E00. This encoding is designed to helps us compact the source code size.)
         0x4E00, 0x4E01, // 一丁

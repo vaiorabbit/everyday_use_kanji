@@ -1,3 +1,7 @@
+2021-06-27  vaiorabbit  <http://twitter.com/vaiorabbit>
+
+	* ImGui template : Applied https://github.com/ocornut/imgui/commit/9440974f66422d63b2ee6c6288e942ecabd6a521 / Updated comment ( https://github.com/ocornut/imgui/blob/9440974f66422d63b2ee6c6288e942ecabd6a521/imgui_draw.cpp#L2924-L2943 )
+
 2020-11-28  vaiorabbit  <http://twitter.com/vaiorabbit>
 
 	* Fixed typo in README.md
