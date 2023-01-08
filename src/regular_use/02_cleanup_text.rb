@@ -15,7 +15,7 @@ if __FILE__ == $PROGRAM_NAME
     raise RuntimeError 'The number of filtered lines does not match the number of Joyo Kanji' if lines.length != 2136
     kanjis = lines.join
   end
-  File.open('./joyokanji_2136.txt', 'w') do |clean_text|
+  File.open('./regular_use.txt', 'w') do |clean_text|
     clean_text << kanjis
   end
 end
