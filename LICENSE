@@ -2,10 +2,17 @@ The kanji character information used in this project is obtained from
 official information provided by the government agencies of Japan:
 *   List of Joyo Kanji by the Agency for Cultural Affairs
     *   https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/kanji/
-	*   https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyo_20101130.pdf
+	*   PDF : https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyo_20101130.pdf
+    *   Terms of use : https://www.mext.go.jp/b_menu/1351168.htm
+
+	        "本利用ルールは、クリエイティブ・コモンズ・ライセンスの表示4.0国際と互換性があり、本利用ルールが適用されるコンテンツはCC BYに従うことでもコンテンツを利用することができます。"
+
 *   List of Jinmeiyo Kanji by the Ministry of Justice
     *   http://www.moj.go.jp/MINJI/minji86.html
-	*   https://www.moj.go.jp/content/001131003.pdf
+	*   PDF : https://www.moj.go.jp/content/001131003.pdf
+	*   Terms of use : https://www.moj.go.jp/hisho06_00280.html
+
+	        "本利用ルールは、クリエイティブ・コモンズ・ライセンスの表示4.0国際と互換性があり、本利用ルールが適用されるコンテンツは、CC BYに従うことでも利用できます。"
 
 The derivatives of the kanji character information above are created by vaiorabbit
 
@@ -16,3 +23,4 @@ All the contents in this repository are freely available under the terms of
 the Creative Commons Attribution 4.0 International (CC BY 4.0).
 
 *   https://creativecommons.org/licenses/by/4.0/legalcode
+*   https://creativecommons.org/licenses/by/4.0/legalcode.ja
