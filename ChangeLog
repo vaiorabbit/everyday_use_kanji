@@ -1,3 +1,8 @@
+2023-01-08  vaiorabbit  <http://twitter.com/vaiorabbit>
+
+	* Changed information source from mojikiban.ipa.go.jp to the one derived to official information provided by the government agencies of Japan
+	* Changed license from CC-BY SA 2.1 to CC-BY 4.0
+
 2021-06-27  vaiorabbit  <http://twitter.com/vaiorabbit>
 
 	* ImGui template : Applied https://github.com/ocornut/imgui/commit/9440974f66422d63b2ee6c6288e942ecabd6a521 / Updated comment ( https://github.com/ocornut/imgui/blob/9440974f66422d63b2ee6c6288e942ecabd6a521/imgui_draw.cpp#L2924-L2943 )

@@ -1,10 +1,11 @@
-The kanji character information used in this project (mj_source.json) is obtained from
-the database of 独立行政法人情報処理推進機構 (Information-technology Promotion Agency, Japan).
-
-*   Information-technology Promotion Agency, Japan（IPA）
-    *   https://www.ipa.go.jp
-*   MJ文字情報API (Character Information API)
-    *   https://mojikiban.ipa.go.jp/mji/
+The kanji character information used in this project is obtained from
+official information provided by the government agencies of Japan:
+*   List of Joyo Kanji by the Agency for Cultural Affairs
+    *   https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/kanji/
+	*   https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyo_20101130.pdf
+*   List of Jinmeiyo Kanji by the Ministry of Justice
+    *   http://www.moj.go.jp/MINJI/minji86.html
+	*   https://www.moj.go.jp/content/001131003.pdf
 
 The derivatives of the kanji character information above are created by vaiorabbit
 
@@ -12,7 +13,6 @@ The derivatives of the kanji character information above are created by vaiorabb
 *   https://twitter.com/vaiorabbit
 
 All the contents in this repository are freely available under the terms of
-the Creative Commons Attribution-ShareAlike 2.1 Japan (CC BY-SA 2.1 JP).
+the Creative Commons Attribution 4.0 International (CC BY 4.0).
 
-*   https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en
-*   https://creativecommons.org/licenses/by-sa/2.1/jp/legalcode
+*   https://creativecommons.org/licenses/by/4.0/legalcode

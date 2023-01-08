@@ -1,12 +1,12 @@
 # Everyday use kanji #
 
 *   Created : 2020-05-16
-*   Last modified : 2021-06-27
+*   Last modified : 2023-01-08
 
 ## Features ##
 
 *   Provides lists of everyday use kanji characters
-*   Sourced from the database of Information-technology Promotion Agency Japan (A relatied organization of Japanese Ministry of Economy, Trade and Industry)
+*   Sourced from official information provided by the government agencies of Japan
 
 ## Contents ##
 
@@ -14,26 +14,17 @@
     *   2136 kanjis for everyday use, announced officially by the Japanese Ministry of Education in 2010 ( 文化庁：常用漢字表 https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kakuki/14/tosin02/index.html )
 *   personal_name_utf8.csv
     *   Additional 863 kanjis for personal name, announced officially by the Japanese Ministry of Justice ( 法務省：子の名に使える漢字 http://www.moj.go.jp/MINJI/minji86.html )
-*   mj_source.json
-    *   Source of these CSV files. Directly obtained from the IPA database API (see below for details)
 *   imgui/GetGlyphRangesJapanese.cpp, imgui/GetGlyphRangesJapanese_standalone.cpp
     *   Alternative implementation of ImGui::GetGlyphRangesJapanese() ( https://github.com/ocornut/imgui ) that can handle 2999 kanjis correctly
-*   scripts/*.rb, imgui/*.rb
+*   scripts/*.rb, src/**/*.rb, imgui/*.rb
     *   Ruby scripts used to obtain data and generate derivatives
     *   Run update.cmd (Windows) / update.sh (macOS) to regenerate codes
 
 ## Sources ##
 
-This project uses the dataset provided by Information-technology Promotion Agency (IPA) Japan.
+This project uses official information provided by the government agencies of Japan.
 
 **See 'LICENSE' for the terms of use.**
-
-*   MJ文字情報API
-    *   https://mojikiban.ipa.go.jp/mji/
-*   MJ文字情報一覧表
-    *   https://mojikiban.ipa.go.jp/1311.html
-
-[NOTE] The acronym "MJ" stands for "Moji-Joho (文字情報)", meaning "character information".
 
 ## Notes ##
 
@@ -63,7 +54,7 @@ The only difference between 'regular_use_utf8.csv' and 'regular_use_force_2byte_
 ## 特徴 ##
 
 *   日常利用する漢字のリスト
-*   独立行政法人情報処理推進機構(IPA)のデータを利用
+*   法務省・文化庁の提供する公式データを利用
 
 ## 内容 ##
 
@@ -71,25 +62,16 @@ The only difference between 'regular_use_utf8.csv' and 'regular_use_force_2byte_
     *   常用漢字2136字のリスト ( 文化庁：常用漢字表 https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kakuki/14/tosin02/index.html )
 *   personal_name_utf8.csv
     *   常用漢字外の人名用漢字863字 ( 法務省：子の名に使える漢字 http://www.moj.go.jp/MINJI/minji86.html )
-*   mj_source.json
-    *   上記.csvのソース / IPAのデータベースから直接取得して生成 (詳細は下記参照)
 *   imgui/GetGlyphRangesJapanese.cpp, imgui/GetGlyphRangesJapanese_standalone.cpp
     *   上記データを利用して ImGui ( https://github.com/ocornut/imgui ) の ImGui::GetGlyphRangesJapanese() の実装を修正し 2999 文字が正しく扱えるようにしたもの
-*   scripts/*.rb, imgui/*.rb
+*   scripts/*.rb, src/**/*.rb, imgui/*.rb
     *   以上を生成する Ruby スクリプト
 
 ## 情報の取得先 ##
 
-独立行政法人情報処理推進機構(IPA)のデータを利用
+法務省・文化庁の提供する公式データ
 
 ** 利用する際は 'LICENSE' を確認すること **
-
-*   MJ文字情報API
-    *   https://mojikiban.ipa.go.jp/mji/
-*   MJ文字情報一覧表
-    *   https://mojikiban.ipa.go.jp/1311.html
-
-[NOTE] "MJ" とは "Moji-Joho (文字情報)" の頭文字
 
 ## メモ ##
 
