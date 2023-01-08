@@ -30,8 +30,6 @@ end
 
 kanji_characters.sort_by! {|chr| chr.codepoints[0]}
 
-File.open('../../personal_name_utf8.txt', 'w:UTF-8') do |dst|
-  dst.puts kanji_characters.join
+File.open('./personal_name.txt', 'w:UTF-8') do |dst|
+  dst.print kanji_characters.join
 end
-
-
